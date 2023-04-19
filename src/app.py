@@ -53,7 +53,6 @@ def add_member():
         }
     }
 
-
 @app.route('/member/<int:id>', methods=['DELETE'])
 def delete_member(id):
     return {
